@@ -55,7 +55,7 @@ let QYWX_KEY = '';
 // - 文字消息: 1 (数字一)
 // - 图文消息: 素材库图片id, 可查看此教程(http://note.youdao.com/s/HMiudGkb)
 //(环境变量名 QYWX_AM)
-let QYWX_AM = '';
+let QYWX_AM = 'ww92f873fbee52c9c9,SOnDlWuD9rx8xTpTGxQKw35MeJ3uVX2tQsilR8XzqQk,@all,1000003,2yRyNtUDQthHuI0oX2AiNrmjy65m4BuOjG3nZlc7HGJ78GrzNRzUDDVjDMNh065uE';
 
 // =======================================iGot聚合推送通知设置区域===========================================
 //此处填您iGot的信息(推送key，例如：https://push.hellyw.com/XXXXXXXX)
@@ -65,8 +65,8 @@ let IGOT_PUSH_KEY = '';
 //官方文档：http://www.pushplus.plus/
 //PUSH_PLUS_TOKEN：微信扫码登录后一对一推送或一对多推送下面的token(您的Token)，不提供PUSH_PLUS_USER则默认为一对一推送
 //PUSH_PLUS_USER： 一对多推送的“群组编码”（一对多推送下面->您的群组(如无则新建)->群组编码，如果您是创建群组人。也需点击“查看二维码”扫描绑定，否则不能接受群组消息推送）
-let PUSH_PLUS_TOKEN = '';
-let PUSH_PLUS_USER = '';
+let PUSH_PLUS_TOKEN = '3c12f80a0223440480f138fdb074f25e';
+let PUSH_PLUS_USER = '168168';
 
 //==========================云端环境变量的判断与接收=========================
 if (process.env.PUSH_KEY) {
